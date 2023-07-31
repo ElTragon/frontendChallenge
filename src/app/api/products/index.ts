@@ -8,28 +8,28 @@ const products: Product[] = [
     name: "Out of",
     price: 775,
     brand: "Off-White",
-    image: "product1.jpg",
+    image: "images/product1/thumbnail.png",
   },
   {
     id: 2,
     name: "Product 2",
     price: 200,
     brand: "Nike",
-    image: "product2.jpg",
+    image: "images/product2/thumbnail.png",
   },
   {
     id: 3,
     name: "Product 3",
     price: 160,
     brand: "Nike",
-    image: "product3.jpg",
+    image: "images/product3/thumbnail.png",
   },
   {
     id: 4,
     name: "Product 4",
     price: 98.99,
     brand: "Adidas",
-    image: "product4.jpg",
+    image: "images/product4/thumbnail.png",
   },
 ];
 
