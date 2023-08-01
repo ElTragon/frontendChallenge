@@ -1,0 +1,15 @@
+.container {
+    @apply bg-black flex flex-row justify-evenly;
+}
+
+.logo {
+    @apply flex flex-row gap-2;
+}
+
+.text{
+    @apply text-footerText text-sm;
+}
+
+.socialContainer{
+    @apply flex flex-row gap-2;
+}
