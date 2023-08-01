@@ -1,3 +1,5 @@
+"use client";
+
 import css from "./index.module.css";
 
 type Props = {

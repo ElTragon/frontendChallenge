@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import css from "./index.module.css";
 import { capitalize } from "@/utils/capitalize";
@@ -12,9 +13,11 @@ export default function SeasonSale({ season, deal }: Props) {
   return (
     <div className={css.container}>
       <div className={css.textContainer}>
-        <h3>{deal}% OFF</h3>
-        <h2>{capitalize(season)} Sale</h2>
-        <div>Discover our {season} styles with a discount</div>
+        <h3 className={css.deal}>{deal}% OFF</h3>
+        <h2 className={css.sale}>{capitalize(season)} Sale</h2>
+        <div className={css.footerText}>
+          Discover our {season} styles with a discount
+        </div>
         <Button text="Shop Now" onClick={() => console.log("clicked")} />
       </div>
     </div>

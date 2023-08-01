@@ -13,7 +13,7 @@ module.exports = {
       lineLightGrey: "#e9ebee",
       paleGreen: "#a7c6ba",
       orange: "#ec5e2a",
-      white: "#fffffff",
+      white: "#ffffff",
       heroBg: "#eaeeef",
     },
     extend: {
