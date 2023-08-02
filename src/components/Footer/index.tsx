@@ -16,7 +16,7 @@ function SocialIcons() {
 
 export default function Footer() {
   return (
-    <div className={css.container}>
+    <footer className={css.container}>
       <div className={css.Logo}>
         <Icon name={"logo"} /> SUN CO.
       </div>
@@ -26,6 +26,6 @@ export default function Footer() {
       </div>
 
       <SocialIcons />
-    </div>
+    </footer>
   );
 }

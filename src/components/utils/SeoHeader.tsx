@@ -10,7 +10,7 @@ type Props = {
 
 const baseUrl = "http://localhost:3000/";
 
-export default function Meta(props: Props) {
+export default function SeoHeader(props: Props) {
   const title = props.title ? `${props.title} ` : `Frontend Challenge`;
   const url = baseUrl + props.route;
   return (
