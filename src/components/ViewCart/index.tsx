@@ -8,12 +8,12 @@ import Link from "next/link";
 export default function ViewCart() {
   const [items, setItems] = useState<number>(2);
   return (
-    <div className={css.container}>
+    <Link className={css.container} href="/cart">
       <div className={css.content}>
         <Icon name={"cart"} />
         <div className={css.text}>View Cart</div>
         {items != 0 && <div className={css.items}>{items}</div>}
       </div>
-    </div>
+    </Link>
   );
 }
