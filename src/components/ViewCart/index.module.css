@@ -1,11 +1,15 @@
 .container {
-    @apply border-2 border-b-lineLightGrey bg-white text-black rounded-md flex flex-row gap-2 mx-4 my-2;
+    @apply border-solid border-2 rounded-md border-black text-black h-10 flex px-6 justify-around no-underline;
+}
+
+.content{
+    @apply flex flex-row items-center gap-2;
 }
 
 .text {
-    @apply font-medium text-base;
+    @apply font-bold font-sans text-base;
 }
 
 .items {
-    @apply rounded-xl bg-orange text-white;
+    @apply rounded-xl bg-orange text-[12px] text-white w-4 h-4 flex justify-around items-center;
 }

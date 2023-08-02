@@ -12,7 +12,7 @@ export default function ViewCart() {
       <div className={css.content}>
         <Icon name={"cart"} />
         <div className={css.text}>View Cart</div>
-        {items != 0 && <div>{items}</div>}
+        {items != 0 && <div className={css.items}>{items}</div>}
       </div>
     </Link>
   );
