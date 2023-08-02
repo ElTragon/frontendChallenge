@@ -1,5 +1,5 @@
 .container {
-    @apply border-2 border-solid border-lineLightGrey flex flex-row px-10 pt-2 justify-start sm:justify-between h-14 mb-2 items-baseline;
+    @apply border-2 border-solid border-lineLightGrey flex flex-row px-10 pt-2 justify-between h-14 mb-2 items-baseline;
 }
 
 .logo{
