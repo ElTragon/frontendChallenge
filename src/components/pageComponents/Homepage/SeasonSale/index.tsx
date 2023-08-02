@@ -1,5 +1,3 @@
-"use client";
-import Image from "next/image";
 import css from "./index.module.css";
 import { capitalize } from "@/utils/capitalize";
 import Button from "@/components/Button";

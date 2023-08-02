@@ -1,5 +1,6 @@
 import HomePage from "@/components/pageComponents/Homepage";
 import Layout from "@/components/utils/Layout";
+import { ProductProvider } from "@/contexts/products";
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
       title={"Homepage"}
       description={"Creased Jordans, we got you"}
     >
-      <HomePage />
+      <ProductProvider>
+        <HomePage />
+      </ProductProvider>
     </Layout>
   );
 }

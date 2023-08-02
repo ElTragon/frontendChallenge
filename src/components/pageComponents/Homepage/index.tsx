@@ -1,10 +1,12 @@
-import { ProductProvider } from "@/contexts/products";
-import Image from "next/image";
+"use client";
+
 import SeasonSale from "./SeasonSale";
+import LatestDrop from "./LatestDrop";
 export default function HomePage() {
   return (
-    <ProductProvider>
+    <>
       <SeasonSale season="summer" deal={25} />
-    </ProductProvider>
+      <LatestDrop />
+    </>
   );
 }

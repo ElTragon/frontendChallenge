@@ -29,10 +29,13 @@ export function ProductProvider({ children }: Props): JSX.Element {
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    fetch(baseUrl + "api/products")
+    fetch("/api/products")
       .then((response) => response.json())
-      .then((data) => setProducts(data))
-      .catch(() => setError("Error fetching products"));
+      .then((data: Product[]) => setProducts(data))
+      .catch((error) => {
+        setError("Error fetching products");
+        console.log(error);
+      });
     setIsLoading(false);
   }, []);
 
