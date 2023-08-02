@@ -1,0 +1,11 @@
+.container{
+    @apply flex flex-col;
+}
+
+.header{
+    @apply text-lg font-semibold;
+}
+
+.productsContainer {
+    @apply flex flex-row gap-2;
+}

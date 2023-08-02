@@ -1,0 +1,19 @@
+.container {
+    @apply flex flex-col;
+}
+
+.image {
+    @apply w-[261px] h-[284px];
+}
+
+.brand {
+    @apply text-black font-semibold text-lg;
+}
+
+.name {
+    @apply text-darkGrey;
+}
+
+.price{
+    @apply text-black font-semibold;
+}

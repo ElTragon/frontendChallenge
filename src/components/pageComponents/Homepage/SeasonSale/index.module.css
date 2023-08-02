@@ -1,0 +1,25 @@
+.container {
+    @apply bg-lineLightGrey flex flex-row;
+}
+
+.textContainer{
+    @apply flex flex-col;
+}
+
+.deal {
+    @apply font-bold text-orange text-lg;
+}
+
+.sale {
+    @apply font-bold text-black text-xl;
+}
+
+.footerText {
+    @apply text-darkGrey;
+}
+
+
+/* 
+.image {
+    @appl
+} */

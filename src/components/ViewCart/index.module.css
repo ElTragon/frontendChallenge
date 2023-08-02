@@ -1,0 +1,11 @@
+.container {
+    @apply border-2 border-b-lineLightGrey bg-white text-black rounded-md flex flex-row gap-2 mx-4 my-2;
+}
+
+.text {
+    @apply font-medium text-base;
+}
+
+.items {
+    @apply rounded-xl bg-orange text-white;
+}

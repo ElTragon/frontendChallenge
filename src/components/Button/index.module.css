@@ -1,0 +1,11 @@
+.container{
+    @apply bg-black w-[283px] h-16;
+}
+
+.content{
+    @apply flex flex-row;
+}
+
+.text{
+    @apply text-white;
+}

@@ -1,0 +1,7 @@
+.container {
+    @apply w-full flex flex-row px-5 justify-start sm:justify-between;
+}
+
+.logo{
+    @apply text-black text-base;
+}
