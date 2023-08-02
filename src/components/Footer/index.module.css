@@ -1,5 +1,5 @@
 .container {
-    @apply bg-black flex flex-row justify-evenly;
+    @apply bg-black flex flex-row justify-evenly w-screen;
 }
 
 .logo {

@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
-import SeoHeader from "../SeoHeader";
+import css from "./index.module.css";
 
 type Props = {
   children: JSX.Element;
@@ -13,13 +13,10 @@ type Props = {
 
 export default function Layout({ children, ...props }: Props) {
   return (
-    <html lang="en">
-      <SeoHeader {...props} />
-      <body>
-        <NavBar />
-        <main>{children}</main>
-        <Footer />
-      </body>
-    </html>
+    <div className={css.container}>
+      <NavBar />
+      <main className={css.main}>{children}</main>
+      <Footer />
+    </div>
   );
 }
