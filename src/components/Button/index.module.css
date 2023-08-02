@@ -1,11 +1,7 @@
 .container{
-    @apply bg-black w-[283px] h-16;
-}
-
-.content{
-    @apply flex flex-row;
+    @apply bg-black rounded-xl w-[283px] h-16 flex flex-row items-center justify-center gap-2;
 }
 
 .text{
-    @apply text-white;
+    @apply font-semibold font-sans text-base text-white;
 }

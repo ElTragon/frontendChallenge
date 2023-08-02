@@ -1,5 +1,5 @@
 .container {
-    @apply bg-lineLightGrey flex flex-row;
+    @apply bg-lineLightGrey rounded-3xl flex flex-row max-w-6xl h-[427px] mt-3 mx-auto justify-around items-center font-sans;
 }
 
 .textContainer{
@@ -7,15 +7,15 @@
 }
 
 .deal {
-    @apply font-bold text-orange text-lg;
+    @apply font-semibold  text-orange text-4xl mb-3 mt-0;
 }
 
 .sale {
-    @apply font-bold text-black text-xl;
+    @apply font-medium text-black text-6xl mt-0 mb-5;
 }
 
 .footerText {
-    @apply text-darkGrey;
+    @apply text-darkGrey mb-12 text-lg;
 }
 
 

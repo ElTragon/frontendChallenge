@@ -1,6 +1,8 @@
 import css from "./index.module.css";
 import { capitalize } from "@/utils/capitalize";
+import Image from "next/image";
 import Button from "@/components/Button";
+import Icon from "@/components/Icons/icons";
 
 type Props = {
   season: string;
@@ -16,8 +18,19 @@ export default function SeasonSale({ season, deal }: Props) {
         <div className={css.footerText}>
           Discover our {season} styles with a discount
         </div>
-        <Button text="Shop Now" onClick={() => console.log("clicked")} />
+        <Button
+          text="Shop Now"
+          onClick={() => console.log("clicked")}
+          icon={<Icon name={"rightArrow"} />}
+        />
       </div>
+
+      <Image
+        src={"/images/hero.png"}
+        alt="hero6 shoe"
+        width={490}
+        height={321}
+      />
     </div>
   );
 }
