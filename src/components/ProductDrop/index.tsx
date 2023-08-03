@@ -13,12 +13,7 @@ const baseUrl = "http://localhost:3000/api/";
 export default function ProductDrop({ product, routeTo }: Props) {
   return (
     <Link className={css.container} href={routeTo}>
-      <Image
-        src={product.image}
-        alt="Product Image"
-        width={50}
-        height={50}
-      />
+      <Image src={product.image} alt="Product Image" width={261} height={284} />
 
       <div className={css.brand}>{product.brand}</div>
 
