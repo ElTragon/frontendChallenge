@@ -6,9 +6,6 @@ import ProductDrop from "@/components/ProductDrop";
 export default function LatestDrop() {
   const { products, isLoading, error } = useContext(ProductContext);
 
-  useEffect(() => {
-    console.log(products);
-  }, [products]);
   if (error !== "") {
     return (
       <div className={css.container}>

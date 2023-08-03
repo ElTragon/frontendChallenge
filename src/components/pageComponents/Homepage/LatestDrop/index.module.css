@@ -1,11 +1,11 @@
 .container{
-    @apply flex flex-col;
+    @apply flex flex-col max-w-6xl mx-auto mt-2 mb-24;
 }
 
 .header{
-    @apply text-lg font-semibold;
+    @apply text-3xl font-semibold font-sans;
 }
 
 .productsContainer {
-    @apply flex flex-row gap-2;
+    @apply flex flex-row flex-wrap justify-between;
 }
