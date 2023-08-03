@@ -8,8 +8,6 @@ type Props = {
   routeTo: string;
 };
 
-const baseUrl = "http://localhost:3000/api/";
-
 export default function ProductDrop({ product, routeTo }: Props) {
   return (
     <Link className={css.container} href={routeTo}>

@@ -1,5 +1,5 @@
 .container {
-    @apply flex flex-col;
+    @apply flex flex-col no-underline font-sans;
 }
 
 .image {
@@ -7,13 +7,13 @@
 }
 
 .brand {
-    @apply text-black font-semibold text-lg;
+    @apply text-black font-semibold text-lg mt-4;
 }
 
 .name {
-    @apply text-darkGrey;
+    @apply text-darkGrey mt-0;
 }
 
 .price{
-    @apply text-black font-semibold;
+    @apply text-black font-semibold mt-4;
 }
