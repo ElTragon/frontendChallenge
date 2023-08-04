@@ -6,6 +6,8 @@ import IconLogo from "./logo";
 import IconLeftChevron from "./leftChevron";
 import IconMinus from "./minus";
 import IconPlus from "./plus";
+import IconYoutube from "./youtube";
+import IconTwitter from "./twitter";
 
 type Props = {
   name: string;
@@ -27,6 +29,10 @@ const Icon = ({ name }: Props) => {
       return <IconMinus />;
     case "plus":
       return <IconPlus />;
+    case "youtube":
+      return <IconYoutube />;
+    case "twitter":
+      return <IconTwitter />;
     default:
       return <IconLogo />;
   }

@@ -1,9 +1,14 @@
 .container {
-    @apply bg-black flex flex-row justify-evenly w-screen;
+    @apply bg-black flex flex-row items-end justify-evenly w-screen py-6 font-sans;
 }
 
-.logo {
-    @apply flex flex-row gap-2;
+
+.logo{
+    @apply flex flex-row gap-2 h-6 items-center;
+}
+
+.logoText{
+    @apply text-white font-medium ;
 }
 
 .text{
