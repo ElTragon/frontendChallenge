@@ -1,5 +1,6 @@
 import { ProductDetails } from "@/types/products";
 import { NextApiRequest, NextApiResponse } from "next";
+import { NextResponse } from "next/server";
 
 const products: ProductDetails[] = [
   {
@@ -72,18 +73,17 @@ const products: ProductDetails[] = [
   },
 ];
 
-export default function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<ProductDetails | { message: string }>
+export async function GET(
+  req: Request,
+  { params }: { params: { id: string } }
 ) {
-  const { id } = req.query;
-
+  const id = params.id;
   const productId = parseInt(id as string, 10);
   const product = products.find((p) => p.id === productId);
 
   if (product) {
-    res.status(200).json(product);
+    return NextResponse.json(product);
   } else {
-    res.status(404).json({ message: "Product not found" });
+    return NextResponse.error;
   }
 }

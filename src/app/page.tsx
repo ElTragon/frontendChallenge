@@ -1,15 +1,14 @@
 import HomePage from "@/components/pageComponents/Homepage";
 import Layout from "@/components/utils/Layout";
 import { ProductProvider } from "@/contexts/products";
-import { Metadata } from 'next'
- 
-export const metadata: Metadata = {
-  title: 'Homepage',
-  description: 'Creased Jordans, we got you',
-}
- 
+import { Metadata } from "next";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Homepage",
+  description: "Creased Jordans, we got you",
+};
+
+export default function Page() {
   return (
     <Layout
       route={""}
