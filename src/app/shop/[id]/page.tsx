@@ -35,7 +35,7 @@ export default async function Page({ params }: { params: { id: string } }) {
   return (
     <Layout
       route={""}
-      title={"Homepage"}
+      title={"ShopItem"}
       description={"Creased Jordans, we got you"}
     >
       <ProductProvider>
