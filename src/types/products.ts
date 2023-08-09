@@ -11,4 +11,5 @@ export type ProductDetails = {
   description: string;
   bulletPoints: string[];
   images: string[];
+  relatedImage: string;
 };

@@ -1,4 +1,5 @@
 import HomePage from "@/components/pageComponents/Homepage";
+import ShopPage from "@/components/pageComponents/ShopPage";
 import Layout from "@/components/utils/Layout";
 import { ProductProvider } from "@/contexts/products";
 import { Metadata } from "next";
@@ -16,7 +17,7 @@ export default function Page() {
       description={"Creased Jordans, we got you"}
     >
       <ProductProvider>
-        <HomePage />
+        <ShopPage />
       </ProductProvider>
     </Layout>
   );
