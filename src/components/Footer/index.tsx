@@ -1,5 +1,4 @@
 import Icon from "../Icons/icons";
-import ViewCart from "../ViewCart";
 import css from "./index.module.css";
 
 const socials = ["instagram", "twitter", "youtube"]; // in the real-word this would be some object and have some link

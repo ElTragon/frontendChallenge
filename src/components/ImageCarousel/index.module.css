@@ -1,0 +1,13 @@
+.container{
+    @apply flex flex-col;
+}
+
+.iconsContainer {
+    @apply flex flex-row justify-between;
+}
+
+.dotsContainer {
+    @apply flex flex-row gap-1;
+}
+
+

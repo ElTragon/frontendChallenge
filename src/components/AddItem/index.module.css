@@ -1,0 +1,20 @@
+.container {
+    @apply flex flex-col;
+}
+
+.topContainer{
+    @apply flex flex-col;
+}
+
+.bottomContainer{
+    @apply flex flex-col;
+
+}
+
+.addItemContainer{
+    @apply flex flex-col border-2 border-l-lineLightGrey;
+}
+
+.disable {
+    @apply text-darkGrey;
+}
